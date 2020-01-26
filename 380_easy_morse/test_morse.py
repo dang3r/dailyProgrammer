@@ -79,7 +79,6 @@ def bonus_5() -> list:
             _int = _enc(con)
             if _int in nums:
                 nums.remove(_int)
-    
     return [_dec(num) for num in nums]
 
 print(bonus_5())
