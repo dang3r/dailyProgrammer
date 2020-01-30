@@ -40,7 +40,6 @@ test_cases = [
     ("THIS IS HIS CLAIM".split(), {"A":7, "C":1, "H":8, "I":5, "L":0, "M":6, "S":2, "T":9}),
     ("WHAT WAS THY CAUSE".split(), {"A":0, "C":1, "E":4, "H":2, "S":3, "T":6, "U":7, "W":9, "Y":5}),
     ("HIS HORSE IS SLAIN".split(), {"A":1, "E":8, "H":3, "I":5, "L":0, "N":6, "O":9, "R":7, "S":4}),
-    #("HERE SHE COMES".split(), ),
     ("FOR LACK OF TREAD".split(), {"A":6, "C":7, "D":3, "E":2, "F":5, "K":8, "L":9, "O":4, "R":0, "T":1}),
     ("I WILL PAY THE THEFT".split(),  {"A":2, "E":4, "F":7, "H":0, "I":8, "L":3, "P":5, "T":1, "W":9, "Y":6})
 ]
