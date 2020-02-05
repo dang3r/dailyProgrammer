@@ -1,4 +1,6 @@
 from collections import Counter, defaultdict
+import os
+
 
 import pytest
 
@@ -18,7 +20,7 @@ Cool things learned from the python3 solutions:
 codes = ".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --..".split(" ")
 morsed = {chr(ord("a") + i): code for i, code in enumerate(codes)}
 
-with open("enable1.txt", "r") as f:
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "enable1.txt"), "r") as f:
     enablelst = f.read().splitlines()
 
 test_cases = [
