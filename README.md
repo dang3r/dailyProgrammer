@@ -1,5 +1,7 @@
 # Dailyprogrammer
 
+![Python package](https://github.com/dang3r/dailyprogrammer/workflows/Python%20package/badge.svg)
+
 This project holds solutions to various problems from the r/dailyprogrammer subreddit.
 
 # Installation
