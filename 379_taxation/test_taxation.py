@@ -3,6 +3,10 @@ from typing import List, Tuple
 
 import pytest
 
+"""
+- https://www.reddit.com/r/dailyprogrammer/comments/cdieag/20190715_challenge_379_easy_progressive_taxation/
+"""
+
 tax_table = [
     (1e4, 0),
     (3e4, 0.1),
